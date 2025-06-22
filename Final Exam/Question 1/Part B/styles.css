@@ -1,9 +1,9 @@
-/* Enable live scroll */
+
 html {
   scroll-behavior: smooth;
 }
 
-/* Center and vertically stack cards */
+
 .card-container {
   display: flex;
   flex-direction: column;
@@ -19,13 +19,13 @@ html {
 }
 
 
-/* Paragraph styles */
+
 .card-text {
   font-size: 16px;
   line-height: 1.7;
 }
 
-/* Back to Top link */
+
 .card a {
   margin-top: 20px;
   display: block;
@@ -33,13 +33,12 @@ html {
   text-decoration: underline;
 }
 
-/* Top heading */
+
 #top {
   margin-top: 30px;
   font-size: 2.5rem;
 }
 
-/* Responsive fix for mobile */
 @media (max-width: 767px) {
   .custom-card {
     width: 100%;
